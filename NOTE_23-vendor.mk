@@ -6,34 +6,16 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/ssh/NOTE_23
 
 PRODUCT_COPY_FILES += \
-    vendor/ssh/NOTE_23/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
-    vendor/ssh/NOTE_23/proprietary/etc/audio_effects.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.xml \
-    vendor/ssh/NOTE_23/proprietary/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/libnfc-nci.conf \
-    vendor/ssh/NOTE_23/proprietary/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_SYSTEM)/etc/seccomp_policy/mediacodec.policy \
-    vendor/ssh/NOTE_23/proprietary/lib/libmedia_codeclist.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmedia_codeclist.so \
-    vendor/ssh/NOTE_23/proprietary/lib/libstagefright_aidl_bufferpool2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_aidl_bufferpool2.so \
-    vendor/ssh/NOTE_23/proprietary/lib/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_bufferpool@2.0.1.so \
-    vendor/ssh/NOTE_23/proprietary/lib/libstagefright_codecbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_codecbase.so \
-    vendor/ssh/NOTE_23/proprietary/lib/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_framecapture_utils.so \
-    vendor/ssh/NOTE_23/proprietary/lib/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_surface_utils.so \
-    vendor/ssh/NOTE_23/proprietary/lib64/libmedia_codeclist.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmedia_codeclist.so \
-    vendor/ssh/NOTE_23/proprietary/lib64/libstagefright_aidl_bufferpool2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_aidl_bufferpool2.so \
-    vendor/ssh/NOTE_23/proprietary/lib64/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_bufferpool@2.0.1.so \
-    vendor/ssh/NOTE_23/proprietary/lib64/libstagefright_codecbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_codecbase.so \
-    vendor/ssh/NOTE_23/proprietary/lib64/libstagefright_framecapture_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_framecapture_utils.so \
-    vendor/ssh/NOTE_23/proprietary/lib64/libstagefright_surface_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_surface_utils.so \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/aee_aedv64_v2:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv64_v2 \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/aee_dumpstatev_v2:$(TARGET_COPY_OUT_VENDOR)/bin/aee_dumpstatev_v2 \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/aeev_v2:$(TARGET_COPY_OUT_VENDOR)/bin/aeev_v2 \
-    vendor/ssh/NOTE_23/proprietary/vendor/bin/applypatch:$(TARGET_COPY_OUT_VENDOR)/bin/applypatch \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/bip:$(TARGET_COPY_OUT_VENDOR)/bin/bip \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/bip_ap:$(TARGET_COPY_OUT_VENDOR)/bin/bip_ap \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/boringssl_self_test32:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test32 \
-    vendor/ssh/NOTE_23/proprietary/vendor/bin/boringssl_self_test64:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test64 \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/bp_kmsetkey_ca:$(TARGET_COPY_OUT_VENDOR)/bin/bp_kmsetkey_ca \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/bt_dump:$(TARGET_COPY_OUT_VENDOR)/bin/bt_dump \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/ccci_fsd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_fsd \
@@ -44,13 +26,11 @@ PRODUCT_COPY_FILES += \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/conninfra_loader:$(TARGET_COPY_OUT_VENDOR)/bin/conninfra_loader \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/dconfig:$(TARGET_COPY_OUT_VENDOR)/bin/dconfig \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/dexecutor:$(TARGET_COPY_OUT_VENDOR)/bin/dexecutor \
-    vendor/ssh/NOTE_23/proprietary/vendor/bin/dmabuf_dump:$(TARGET_COPY_OUT_VENDOR)/bin/dmabuf_dump \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/dmc_core:$(TARGET_COPY_OUT_VENDOR)/bin/dmc_core \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/doeapp-memtester:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-memtester \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/doeapp-sat:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-sat \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/dtc_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/dtc_vendor \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/dumpfaultd.mt6789:$(TARGET_COPY_OUT_VENDOR)/bin/dumpfaultd.mt6789 \
-    vendor/ssh/NOTE_23/proprietary/vendor/bin/dumpsys:$(TARGET_COPY_OUT_VENDOR)/bin/dumpsys \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/eara_io_service:$(TARGET_COPY_OUT_VENDOR)/bin/eara_io_service \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
@@ -63,17 +43,10 @@ PRODUCT_COPY_FILES += \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/hostapd_cli:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_cli \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/hw/android.hardware.audio.service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service.mediatek \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service-mediatek \
-    vendor/ssh/NOTE_23/proprietary/vendor/bin/hw/android.hardware.boot@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.boot@1.2-service \
-    vendor/ssh/NOTE_23/proprietary/vendor/bin/hw/android.hardware.cas@1.2-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.2-service-lazy \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.clearkey \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.widevine \
-    vendor/ssh/NOTE_23/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/hw/android.hardware.gnss-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss-service.mediatek \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek.mt6789:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek.mt6789 \
-    vendor/ssh/NOTE_23/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.1-service \
-    vendor/ssh/NOTE_23/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.3-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.3-service \
-    vendor/ssh/NOTE_23/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.4-service \
-    vendor/ssh/NOTE_23/proprietary/vendor/bin/hw/android.hardware.health@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.1-service \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/hw/android.hardware.lights-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.lights-service.mediatek \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek \
     vendor/ssh/NOTE_23/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek-64b \
@@ -341,20 +314,11 @@ PRODUCT_COPY_FILES += \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init.insmod.mt6789.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.mt6789.cfg \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/aee_aedv64_v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv64_v2.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.audio.service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.mediatek.rc \
-    vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
-    vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.boot@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot@1.2-service.rc \
-    vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service-lazy.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.clearkey.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
-    vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
-    vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.1-service.rc \
-    vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.2-service.rc \
-    vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.3-service.rc \
-    vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.4-service.rc \
-    vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.health@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
@@ -368,7 +332,6 @@ PRODUCT_COPY_FILES += \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
-    vendor/ssh/NOTE_23/proprietary/vendor/etc/init/boringssl_self_test.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/boringssl_self_test.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
@@ -434,9 +397,7 @@ PRODUCT_COPY_FILES += \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
-    vendor/ssh/NOTE_23/proprietary/vendor/etc/init/vendor_flash_recovery.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor_flash_recovery.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/vibrator-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vibrator-mtk-default.rc \
-    vendor/ssh/NOTE_23/proprietary/vendor/etc/init/vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/wifimacaddr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifimacaddr.rc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
@@ -470,7 +431,6 @@ PRODUCT_COPY_FILES += \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/meow.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/meow.cfg \
-    vendor/ssh/NOTE_23/proprietary/vendor/etc/mkshrc:$(TARGET_COPY_OUT_VENDOR)/etc/mkshrc \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/ssh/NOTE_23/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
@@ -761,7 +721,6 @@ PRODUCT_COPY_FILES += \
     vendor/ssh/NOTE_23/proprietary/vendor/lib/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/VP9SecureVdecCA.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk_platform.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audio_common-aidl-cpp.so \
-    vendor/ssh/NOTE_23/proprietary/vendor/lib/audioclient-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audioclient-types-aidl-cpp.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib/bf2257csmacro_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/bf2257csmacro_mipi_raw_IdxMgr.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib/bf2257csmacro_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/bf2257csmacro_mipi_raw_tuning.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
@@ -779,8 +738,6 @@ PRODUCT_COPY_FILES += \
     vendor/ssh/NOTE_23/proprietary/vendor/lib/gc08a3wide_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc08a3wide_mipi_raw_tuning.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib/gc5035wide_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc5035wide_mipi_raw_IdxMgr.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib/gc5035wide_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc5035wide_mipi_raw_tuning.so \
-    vendor/ssh/NOTE_23/proprietary/vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@6.0-impl.so \
-    vendor/ssh/NOTE_23/proprietary/vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@7.0-impl.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gatekeeper@1.0-impl.so \
@@ -1544,7 +1501,6 @@ PRODUCT_COPY_FILES += \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/VP9SecureVdecCA.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V1-ndk_platform.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audio_common-aidl-cpp.so \
-    vendor/ssh/NOTE_23/proprietary/vendor/lib64/audioclient-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audioclient-types-aidl-cpp.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/bf2257csmacro_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/bf2257csmacro_mipi_raw_IdxMgr.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/bf2257csmacro_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/bf2257csmacro_mipi_raw_tuning.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
@@ -1554,16 +1510,12 @@ PRODUCT_COPY_FILES += \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_qt.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_trace.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/egl/mt6789/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/mt6789/libGLES_mali.so \
-    vendor/ssh/NOTE_23/proprietary/vendor/lib64/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/framework-permission-aidl-cpp.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/gc08a3sub_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc08a3sub_mipi_raw_IdxMgr.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/gc08a3sub_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc08a3sub_mipi_raw_tuning.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/gc08a3wide_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc08a3wide_mipi_raw_IdxMgr.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/gc08a3wide_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc08a3wide_mipi_raw_tuning.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/gc5035wide_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc5035wide_mipi_raw_IdxMgr.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/gc5035wide_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc5035wide_mipi_raw_tuning.so \
-    vendor/ssh/NOTE_23/proprietary/vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@6.0-impl.so \
-    vendor/ssh/NOTE_23/proprietary/vendor/lib64/hw/android.hardware.audio.effect@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@7.0-impl.so \
-    vendor/ssh/NOTE_23/proprietary/vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/hw/android.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth.audio@2.1-impl.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl.so \
     vendor/ssh/NOTE_23/proprietary/vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.renderscript@1.0-impl.so \
@@ -2758,7 +2710,6 @@ PRODUCT_PACKAGES += \
     NetworkStackResOverlay \
     SensorHub \
     TetheringResOverlay \
-    android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.boot@1.2 \
     android.hardware.cas@1.2-service-lazy \
     android.hardware.health@2.1 \
